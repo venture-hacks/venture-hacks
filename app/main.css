@@ -1,0 +1,404 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #efefef;
+}
+*:focus {
+    outline: none;
+}
+body{
+	background-color: #1b1b1b;
+}
+h1{
+	font-size: 22pt;
+}
+p{
+	font-size: 16pt;
+}
+
+#menu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	height:60px; 
+	background-color:#1b1b1b;
+	color: #1b1b1b;
+	z-index: 3;
+	display: none;
+	box-shadow: 0 3px 20px -10px gray;
+}
+.active{
+	color: #673AB6;
+}
+
+#visibleMenu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	height:60px; 
+	background-color:#1b1b1b;
+	color: #1b1b1b;
+	z-index: 3;
+	display: block;
+	box-shadow: 0 3px 20px -10px gray;
+}
+
+
+#menu-logo{
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#menu ul, #visibleMenu ul{
+	float: right;
+}
+
+#menu ul li, #visibleMenu ul li{
+	list-style: none;
+	float: left;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size: 12pt;
+	width: 100px;
+	margin-top: 18px;
+	height: 32px;
+	text-align: center;
+
+}
+
+#menu ul li:hover, #visibleMenu ul li:hover{
+	opacity: .8;
+}
+
+.purple-link{
+	color: #673AB6;
+	text-decoration: underline;
+}
+.contained{
+	margin: auto;
+	width: 95%;
+	max-width: 1040px;
+}
+.fullscreen{
+	width: 100%;
+	height: 100vh;
+	min-height: 320px; /*smallest mobile screen height*/
+	background-color: #673AB6;	
+}
+
+#landing-content{
+	position: absolute;
+	z-index: 2;
+	margin-left: 5%;
+	bottom: 30%;
+
+}
+
+#logo{
+	width: 90%;
+	max-width: 378px;
+	margin-bottom: 100px;
+}
+
+#slant {
+	width: 40vw;
+	border-top: 100vh solid  #1b1b1b;
+	border-right: 25vw solid transparent;
+	overflow: hidden;
+	float: left;
+	min-width: 400px;
+	position: absolute;
+	z-index: 1;
+}
+
+#skyline{
+	float: right;
+	position: absolute;
+	z-index: 0;
+	bottom: 20%;
+	right: 0px;
+	height: 15vw;
+	font-weight: 300;
+}
+
+#landing-content h1{
+	margin-bottom: 30px;
+	font-weight:bold;
+	font-size: 22pt;
+}
+
+#landing-content p{
+	margin-bottom: 30px;
+	font-size: 16pt;
+	max-width: 500px;
+}
+.action-button{
+	background-color: #673AB6;
+	width: 120px;
+	text-align: center;
+	height: 25px;
+	padding: 15px;
+}
+.dark-action-button{
+	background-color: #1b1b1b;
+	width: 120px;
+	text-align: center;
+	height: 25px;
+	padding: 15px;
+	margin: auto;
+	margin-top: 30px;
+}
+a{
+	text-decoration: none;
+}
+.action-button:hover, .dark-action-button:hover{
+	cursor: pointer;
+	opacity: .8;
+}
+#joinUs{
+	padding-top: 10%;
+	background-color: #1b1b1b;
+	height: 85vh;
+	text-align: center;
+}
+#joinUs h1{
+	margin-top: 30px;
+}
+#joinUs p{
+	max-width: 714px;
+	margin: auto;
+	margin-top: 40px;
+}
+.third{
+	width: 25%;
+	padding: 4%;
+	float: left;
+	text-align: center;
+}
+@media (max-width: 853px) {
+	.third{
+		width: 92%;
+		padding: 4%;
+		text-align: center;
+	}
+	#landing-content p{
+	margin-bottom: 30px;
+	font-size: 16pt;
+	max-width: 400px;
+}
+}
+
+.third img{
+	height: 100px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.third .action-button{
+	margin: auto;
+	margin-top: 40px;
+}
+.third p{
+	max-width: 293px;
+}
+
+#hackathon-logo{
+	display: block;
+	margin: auto;
+	width: 60%;
+	max-width: 300px;
+	padding-top: 20vh;
+}
+
+#apply-header{
+	text-align: center;
+}
+
+#apply-header h1{
+	text-transform: uppercase;
+	color: #1b1b1b;
+	font-size: 30pt;
+	margin-top: 20px;
+}
+
+#apply-header h2{
+	font-weight: 300;
+	font-size: 24pt;
+	margin-top: 20px;
+}
+
+#schedule{
+	background-color: white;
+}
+#schedule table{
+	padding-top: 30px;
+	padding-bottom: 60px;
+	border-collapse:collapse;
+}
+
+#schedule table tr{
+	border-bottom: solid 1px #d3d3d3;
+}
+
+#schedule p{
+	color: #1b1b1b;
+	font-size: 14pt;
+}
+
+#schedule .left{
+	vertical-align: top;
+	text-align: right;
+	width: 25%;
+	padding-right: 3%;
+	padding-top: 20px;
+}
+
+#schedule .date{
+	color: #673AB6;
+	font-weight: bold;
+}
+
+#schedule .title{
+	padding-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#schedule .description, #schedule .place{
+	font-size: 13pt;
+	padding-bottom: 20px;
+}
+
+#schedule-wrapper{
+	background-color: white;
+	width: 100%;
+}
+
+#schedule-wrapper h1{
+	color: #673AB6;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#mentor{
+	background-color: #1b1b1b;
+}
+
+#mentor h1{
+	margin-bottom: 30px;
+	font-size: 20pt;
+}
+
+#mentor h2{
+	text-align: left;
+	margin-bottom: 10px;
+	font-size: 15pt;
+}
+
+#mentor p{
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 12pt;
+}
+
+#mentor img{
+	height: 70px;
+	margin-bottom: 0px;
+}
+
+#mentor .action-button{
+	margin-left: 0px;
+}
+
+#past{
+	padding-top: 10%;
+	background-color: #1b1b1b;
+	height: 85vh;
+	text-align: center;
+	}
+#past h1{
+	margin-top: 30px;
+}
+#past h2{
+	margin-top: -15px;
+	margin-bottom: 30px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+}
+#past img{
+	height: 200px;
+	margin-top: 0px;
+}
+
+#past .third .action-button{
+	background-color: #1b1b1b;
+	border: solid 1px white;
+	margin: auto;
+}
+
+#scroll .review, #scroll .name{
+	text-align: center;
+}
+
+@media (max-width: 853px) {
+	#visibleMenu, #menu{
+		height: 120px;
+	}
+	#menu ul, #visibleMenu ul{
+		margin-top: 5px;
+		border-top: 1px #2f2f2f solid;
+		width: 100%;
+	}
+	#menu ul li, #visibleMenu ul li{
+		width: 33%;
+		background-color: #1b1b1b;
+	}
+}
+
+@media (max-width: 580px) {
+
+	#logo{
+		margin-bottom: 40px;
+	}
+	#hackathon-logo{
+		margin-top: 30px;
+	}
+	#apply-header h1{
+		font-size: 7vw;
+	}
+	#apply-header h2{
+		font-size: 5vw;
+	}
+	.dark-action-button{
+		width: 60%;
+		height: 45px;
+		font-size: 20pt;
+	}
+	.action-button{
+		width: 60%;
+		height: 45px;
+		font-size: 20pt;
+	}
+	#mentor h1:first-child{
+		margin-top: 120px;
+	}
+	#landing-content{
+		top: 20%;
+	}
+	#past-hackers{
+		top: 50px;
+	}
+	#scroll{
+		margin: auto;
+		width: 80%;
+	}
+}

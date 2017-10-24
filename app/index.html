@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<title>Venture Hacks</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300,700" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="img/icon.png" rel="icon" type="image/png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			// Smooth scroll  
+			$(document).ready(function(){
+				// Select all links with hashes
+				$('a[href*="#"]')
+				  // Remove links that don't actually link to anything
+				  .not('[href="#"]')
+				  .not('[href="#0"]')
+				  .click(function(event) {
+				    // On-page links
+				    if (
+				      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+				      && 
+				      location.hostname == this.hostname
+				    ) {
+				      // Figure out element to scroll to
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				      // Does a scroll target exist?
+				      if (target.length) {
+				        // Only prevent default if animation is actually gonna happen
+				        event.preventDefault();
+				        $('html, body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000, function() {
+				          // Callback after animation
+				          // Must change focus!
+				          var $target = $(target);
+				          $target.focus();
+				          if ($target.is(":focus")) { // Checking if the target was focused
+				            return false;
+				          } else {
+				            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+				            $target.focus(); // Set focus again
+				          };
+				        });
+				      }
+				    }
+				  });
+				 });
+		</script>
+		<script type="text/javascript">
+		// Menu appear  
+		(function($) {          
+		    $(document).ready(function(){                    
+		        $(window).scroll(function(){                          
+		            if ($(this).scrollTop() > 200) {
+		                $('#menu').fadeIn(500);
+		            } else {
+		                $('#menu').fadeOut(500);
+		            }
+		        });
+		    });
+		})(jQuery);
+		</script>
+	<head>
+
+	<body id="index">
+	<div id="menu">
+		<div class="contained">
+		<a href="#"><img src="img/logo.png" id="menu-logo"></a>
+		<ul>
+			<a href="apply"><li> Apply </li></a>
+			<a href="mentor"><li> Mentor </li></a>
+			<a href="past.html"><li> Past </li></a>
+		</ul>
+		</div>
+	</div>
+		<section class="fullscreen">
+			<div id="landing-content">
+				<img src="img/logo.png" id="logo">
+				<h1> Let's start something. </h1>
+				<p> We empower smart, passionate, and motivated people to build amazing things. </p>
+				<a href="#joinUs"><div class="action-button">Join Us</div></a>
+			</div>
+			<img src="img/skyline.png" id="skyline">
+
+			<div id="slant">
+			</div>
+		</section>
+		<div class="contained">
+		<section id="joinUs">
+			<h1> Join Us </h1>
+			<p> Our mission is to redefine entrepreneurial education through an ongoing series of hackathons sponsored by the <a href="https://www.stevens.edu/research-entrepreneurship/stevens-venture-center" class="purple-link"> Stevens Venture Center. </a></p>
+			<div class="third">
+				<img src="img/past.svg">
+				<p> Hear from participants at our past hackathons. </p>
+				<a href="past.html"><div class="action-button">Go</div></a>
+			</div>
+			<div class="third">
+				<img src="img/apply.svg">
+				<p> Apply to participate in our upcoming hackathon. </p>
+				<a href="apply"><div class="action-button">Go Go</div></a>
+			</div>
+			<div class="third">
+				<img src="img/mentor.svg">
+				<p> Help out us as a mentor, volunteer, or judge. </p>
+				<a href="mentor"><div class="action-button">Go Go Go</div></a>
+			</div>
+			</div>
+		</section>
+		</div>
+	</body>
+</HTML>

@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<title>Venture Hacks</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300,700" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="img/icon.png" rel="icon" type="image/png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<head>
+
+	<body>
+	<div id="visibleMenu">
+		<div class="contained">
+		<a href="index.html"><img src="img/logo.png" id="menu-logo"></a>
+		<ul>
+			<a href="apply"><li class="active"> Apply </li></a>
+			<a href="mentor"><li> Mentor </li></a>
+			<a href="past.html"><li> Past </li></a>
+		</ul>
+		</div>
+	</div>
+		<section class="fullscreen" id="apply-header">
+			<img src="img/hackathon-logo.png" id="hackathon-logo">
+			<h1> Let's start something. </h1>
+			<h2> 10-12th November 2017 </h2>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSf-HahsilS8pnySsih3rzhdq-IqVWhdlk7dQqB6j-ww5cS0QQ/viewform?usp=sf_link"><div class="dark-action-button">Apply Now</div></a>
+		</section>
+		<div id="schedule-wrapper">
+		<div class="contained">
+		<h1> Schedule </h1>
+		<hr style="width: 100%; margin: 10px auto">
+		<section id="schedule">
+			<table style="width:100%">
+				  <tr>
+				    <td class="left">
+				    	<p class="date">Friday, 6pm</p>
+				    	<p class="place">Babbio 104	</p> 
+				    </td>
+				    <td>
+				    	<p class="title">Kick-Off</p>
+				    	<p class="description">To start, you'll learn what the Venture Center is all about and get acquainted with your peers and mentors.</p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date">6:30pm</p>
+				    </td>
+				    <td>
+				    	<p class="title">Jumpstart + Storytelling</p>
+				    	<p class="description">Here's when you'll learn how to go from problem to idea to solution and you'll get matched up with the right people.</p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date">9pm</p>
+				    </td>
+				    <td>
+				    	<p class="title">Wrap Up</p>
+				    	<p class="description">Formal instruction for the night is over, but rooms are open and participants are welcome to begin work.</p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date">Saturday, 12pm</p>
+				    	<p class="place">Babbio Atrium	</p> 
+				    </td>
+				    <td>
+				    	<p class="title">Brunch</p>
+				    	<p class="description">Rise and shine for brunch with your Saturday Mentors.</p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date">12:30pm</p>
+				    	<p class="place">Babbio 104	</p> 
+				    </td>
+				    <td>
+				    	<p class="title">Mock-Ups</p>
+				    	<p class="description">Plan before you code. Learn how to think about your user and translate this to features.</p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date">1pm</p>
+				    </td>
+				    <td>
+				    	<p class="title">Technical Foundations</p>
+				    	<p class="description">Get all of the technical tools you need to translate your mock-ups to life with the power of code.</p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date">2pm</p>
+				    </td>
+				    <td>
+				    	<p class="title">Hack, Hack, Hack</p>
+				    	<p class="description">Keep building, building, building and keep your demo in mind.</p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date">7pm</p>
+				    	<p class="place">Babbio Atrium	</p> 
+				    </td>
+				    <td>
+				    	<p class="title">Dinner</p>
+				    	<p class="description">Take a break to enjoy dinner with your fellow participants!</p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date"> 9pm</p>
+				    </td>
+				    <td >
+				    	<p class="title">Break</p>
+				    	<p class="description">Again, formal instruction for the night is over, but rooms are open and participants are welcome to continue working.</p>
+				    </td>
+				  </tr>				  				  				  		<tr>
+				    <td class="left">
+				    	<p class="date">Sunday, 12pm</p>
+				    	<p class="place">Babbio Atrium	</p> 
+				    </td>
+				    <td>
+				    	<p class="title">Brunch</p>
+				    	<p class="description">Get some food and get working - it's crunch time!</p>
+				    </td>
+				  </tr> 	
+				  <tr>
+				    <td class="left">
+				    	<p class="date">Sunday, 1pm</p>
+				    	<p class="place">Babbio 104	</p> 
+				    </td>
+				    <td>
+				    	<p class="title">Another Presentations</p>
+				    	<p class="description">This time, on presentations. That is, your presentations and how to present them.</p>
+				    </td>
+				  </tr> 
+				  <tr>
+				    <td class="left">
+				    	<p class="date">1:30pm</p>
+				    </td>
+				    <td>
+				    	<p class="title">Work, Work, Work</p>
+				    	<p class="description">This is crunch time people.</p>
+				    </td>
+				  </tr> 	
+				  <tr>
+				    <td class="left">
+				    	<p class="date">5pm</p>
+				    </td>
+				    <td>
+				    	<p class="title">Submissions Due</p>
+				    	<p class="description">Submit your projects to devpost. </p>
+				    </td>
+				  </tr> 					  				  			
+				<tr>
+				    <td class="left">
+				    	<p class="date">5:30pm</p>
+				    	<p class="place">Babbio Atrium</p> 
+				    </td>
+				    <td>
+				    	<p class="title">Dinner</p>
+				    	<p class="description">Food. Really good food. And judges. Really good judges. </p>
+				    </td>
+				  </tr> 
+				  <tr>
+				    <td class="left">
+				    	<p class="date">6:15pm</p>
+				    	<p class="place">Burchard 118</p> 
+				    </td>
+				    <td>
+				    	<p class="title">Presentations</p>
+				    	<p class="description">Show everyone how awesome you are. </p>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td class="left">
+				    	<p class="date">8:30</p>
+				    </td>
+				    <td>
+				    	<p class="title">Awards + Closing Ceremony</p>
+				    	<p class="description">We show you how awesome you are. </p>
+				    </td>
+				  </tr>  
+			</table>
+		</div>
+		</div>
+	</body>
+</HTML>
