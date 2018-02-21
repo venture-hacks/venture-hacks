@@ -21,10 +21,12 @@
 		</div>
 	</div>
 		<section class="fullscreen" id="apply-header">
-			<img src="img/hackathon-logo.png" id="hackathon-logo">
+			<!--TODO: Replace me with the FinTech logo-->
+			<img src="img/purple.png" id="hackathon-logo">
+			<!--TODO: Update page with accurate dates-->
 			<h1> Let's start something. </h1>
 			<h2> 10-12th November 2017 </h2>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSf-HahsilS8pnySsih3rzhdq-IqVWhdlk7dQqB6j-ww5cS0QQ/viewform?usp=sf_link"><div class="dark-action-button">Apply Now</div></a>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9yBqBJJtksjjRJv1UWjtA1fd0bZWKhPzo5aJTBZQy7hrIxQ/viewform?usp=sf_link"><div class="dark-action-button">Apply Now</div></a>
 		</section>
 		<div id="schedule-wrapper">
 		<div class="contained">
@@ -32,6 +34,7 @@
 		<hr style="width: 100%; margin: 10px auto">
 		<section id="schedule">
 			<table style="width:100%">
+				<!--TODO: Update schedule, all of it is off-->
 				  <tr>
 				    <td class="left">
 				    	<p class="date">Friday, 6pm</p>

@@ -34,7 +34,7 @@ p{
 	box-shadow: 0 3px 20px -10px gray;
 }
 .active{
-	color: #673AB6;
+	color: #4caf50;
 }
 
 #visibleMenu {
@@ -78,7 +78,7 @@ p{
 }
 
 .purple-link{
-	color: #673AB6;
+	color: #4caf50;
 	text-decoration: underline;
 }
 .contained{
@@ -90,7 +90,7 @@ p{
 	width: 100%;
 	height: 100vh;
 	min-height: 320px; /*smallest mobile screen height*/
-	background-color: #673AB6;	
+	background-color: #4CAF50;	
 }
 
 #landing-content{
@@ -140,11 +140,12 @@ p{
 	max-width: 500px;
 }
 .action-button{
-	background-color: #673AB6;
+	background-color: #4caf50;
 	width: 120px;
 	text-align: center;
 	height: 25px;
 	padding: 15px;
+	font-weight: 600;
 }
 .dark-action-button{
 	background-color: #1b1b1b;
@@ -181,6 +182,10 @@ a{
 	padding: 4%;
 	float: left;
 	text-align: center;
+}
+#purple-logo{
+	margin: auto;
+	float: none !important;
 }
 @media (max-width: 853px) {
 	.third{
@@ -260,7 +265,7 @@ a{
 }
 
 #schedule .date{
-	color: #673AB6;
+	color: #4caf50;
 	font-weight: bold;
 }
 
@@ -281,7 +286,7 @@ a{
 }
 
 #schedule-wrapper h1{
-	color: #673AB6;
+	color: #4caf50;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 20px;
