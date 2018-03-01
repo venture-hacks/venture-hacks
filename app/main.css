@@ -149,6 +149,7 @@ p{
 }
 .dark-action-button{
 	background-color: #1b1b1b;
+	font-weight: 600;
 	width: 120px;
 	text-align: center;
 	height: 25px;

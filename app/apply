@@ -21,11 +21,9 @@
 		</div>
 	</div>
 		<section class="fullscreen" id="apply-header">
-			<!--TODO: Replace me with the FinTech logo-->
-			<img src="img/purple.png" id="hackathon-logo">
-			<!--TODO: Update page with accurate dates-->
+			<img src="img/green-2018.png" id="hackathon-logo">
 			<h1> Let's start something. </h1>
-			<h2> 10-12th November 2017 </h2>
+			<h2> 6-8th April 2018 </h2>
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9yBqBJJtksjjRJv1UWjtA1fd0bZWKhPzo5aJTBZQy7hrIxQ/viewform?usp=sf_link"><div class="dark-action-button">Apply Now</div></a>
 		</section>
 		<div id="schedule-wrapper">
@@ -38,7 +36,7 @@
 				  <tr>
 				    <td class="left">
 				    	<p class="date">Friday, 6pm</p>
-				    	<p class="place">Babbio 104	</p> 
+				    	<p class="place">EAS 230	</p> 
 				    </td>
 				    <td>
 				    	<p class="title">Kick-Off</p>
@@ -66,17 +64,16 @@
 				  <tr>
 				    <td class="left">
 				    	<p class="date">Saturday, 12pm</p>
-				    	<p class="place">Babbio Atrium	</p> 
+				    	<p class="place">Howe, Fielding Room</p> 
 				    </td>
 				    <td>
-				    	<p class="title">Brunch</p>
-				    	<p class="description">Rise and shine for brunch with your Saturday Mentors.</p>
+				    	<p class="title">Brunch + Speaker</p>
+				    	<p class="description">Rise and shine for brunch with your Saturday Mentors, as well as a few words from one of our speakers.</p>
 				    </td>
 				  </tr>
 				  <tr>
 				    <td class="left">
 				    	<p class="date">12:30pm</p>
-				    	<p class="place">Babbio 104	</p> 
 				    </td>
 				    <td>
 				    	<p class="title">Mock-Ups</p>
@@ -104,7 +101,7 @@
 				  <tr>
 				    <td class="left">
 				    	<p class="date">7pm</p>
-				    	<p class="place">Babbio Atrium	</p> 
+				    	<p class="place">Howe, Bissinger Room</p> 
 				    </td>
 				    <td>
 				    	<p class="title">Dinner</p>
@@ -122,7 +119,7 @@
 				  </tr>				  				  				  		<tr>
 				    <td class="left">
 				    	<p class="date">Sunday, 12pm</p>
-				    	<p class="place">Babbio Atrium	</p> 
+				    	<p class="place">Howe, Fielding Room</p> 
 				    </td>
 				    <td>
 				    	<p class="title">Brunch</p>
@@ -132,10 +129,9 @@
 				  <tr>
 				    <td class="left">
 				    	<p class="date">Sunday, 1pm</p>
-				    	<p class="place">Babbio 104	</p> 
 				    </td>
 				    <td>
-				    	<p class="title">Another Presentations</p>
+				    	<p class="title">Another Presentation</p>
 				    	<p class="description">This time, on presentations. That is, your presentations and how to present them.</p>
 				    </td>
 				  </tr> 
@@ -159,18 +155,26 @@
 				  </tr> 					  				  			
 				<tr>
 				    <td class="left">
-				    	<p class="date">5:30pm</p>
-				    	<p class="place">Babbio Atrium</p> 
+				    	<p class="date">5:15pm</p>
+				    	<p class="place">Howe, Bissinger Room</p> 
 				    </td>
 				    <td>
 				    	<p class="title">Dinner</p>
 				    	<p class="description">Food. Really good food. And judges. Really good judges. </p>
 				    </td>
-				  </tr> 
+				  </tr>
+					<tr>
+				    <td class="left">
+				    	<p class="date">6:00pm</p>
+				    </td>
+				    <td>
+				    	<p class="title">One More Speaker</p>
+				    	<p class="description">Some inspiring words to kick off presentations.</p>
+				    </td>
+				  </tr>
 				  <tr>
 				    <td class="left">
-				    	<p class="date">6:15pm</p>
-				    	<p class="place">Burchard 118</p> 
+				    	<p class="date">6:30pm</p>
 				    </td>
 				    <td>
 				    	<p class="title">Presentations</p>
