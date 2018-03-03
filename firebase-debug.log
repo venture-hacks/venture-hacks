@@ -1,41 +1,41 @@
-[debug] [2018-03-01T18:00:52.619Z] ----------------------------------------------------------------------
-[debug] [2018-03-01T18:00:52.621Z] Command:       /home/mark/nodejs/bin/node /home/mark/nodejs/bin/firebase serve
-[debug] [2018-03-01T18:00:52.621Z] CLI Version:   3.17.4
-[debug] [2018-03-01T18:00:52.621Z] Platform:      linux
-[debug] [2018-03-01T18:00:52.621Z] Node Version:  v8.9.4
-[debug] [2018-03-01T18:00:52.621Z] Time:          Thu Mar 01 2018 13:00:52 GMT-0500 (EST)
-[debug] [2018-03-01T18:00:52.622Z] ----------------------------------------------------------------------
+[debug] [2018-03-03T01:50:06.752Z] ----------------------------------------------------------------------
+[debug] [2018-03-03T01:50:06.754Z] Command:       /home/mark/nodejs/bin/node /home/mark/nodejs/bin/firebase serve
+[debug] [2018-03-03T01:50:06.754Z] CLI Version:   3.17.4
+[debug] [2018-03-03T01:50:06.754Z] Platform:      linux
+[debug] [2018-03-03T01:50:06.754Z] Node Version:  v8.9.4
+[debug] [2018-03-03T01:50:06.754Z] Time:          Fri Mar 02 2018 20:50:06 GMT-0500 (EST)
+[debug] [2018-03-03T01:50:06.754Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-03-01T18:00:52.632Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-03-01T18:00:52.632Z] > authorizing via signed-in user
-[debug] [2018-03-01T18:00:52.634Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-03-01T18:00:52.634Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-03-03T01:50:06.763Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-03T01:50:06.764Z] > authorizing via signed-in user
+[debug] [2018-03-03T01:50:06.765Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-03T01:50:06.765Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  { refresh_token: '1/vElzEpycg_SHQ5wFvF47UPY7QkY73rQt-3bQ-bhXeks',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Thu Mar 01 2018 13:00:52 GMT-0500 (EST)
-[debug] [2018-03-01T18:00:52.781Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-01T18:00:52.792Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/venture-hacks-fintech  
+ Fri Mar 02 2018 20:50:06 GMT-0500 (EST)
+[debug] [2018-03-03T01:50:06.913Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-03T01:50:06.921Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/venture-hacks-fintech  
   
- Thu Mar 01 2018 13:00:52 GMT-0500 (EST)
-[debug] [2018-03-01T18:00:53.339Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-01T18:00:53.340Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/venture-hacks-fintech/tokens  
+ Fri Mar 02 2018 20:50:06 GMT-0500 (EST)
+[debug] [2018-03-03T01:50:07.978Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-03T01:50:07.980Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/venture-hacks-fintech/tokens  
   
- Thu Mar 01 2018 13:00:53 GMT-0500 (EST)
-[debug] [2018-03-01T18:00:53.749Z] <<< HTTP RESPONSE 200
+ Fri Mar 02 2018 20:50:07 GMT-0500 (EST)
+[debug] [2018-03-03T01:50:25.589Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/home/mark/Desktop/venture-hacks/fintech'...
 [info] 
-[debug] [2018-03-01T18:00:53.751Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/venture-hacks-fintech  
+[debug] [2018-03-03T01:50:25.594Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/venture-hacks-fintech  
   
- Thu Mar 01 2018 13:00:53 GMT-0500 (EST)
-[debug] [2018-03-01T18:00:54.159Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-01T18:00:54.160Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/816849602485/clients/_:getWebAppConfig  
+ Fri Mar 02 2018 20:50:25 GMT-0500 (EST)
+[debug] [2018-03-03T01:50:26.002Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-03T01:50:26.004Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/816849602485/clients/_:getWebAppConfig  
   
- Thu Mar 01 2018 13:00:54 GMT-0500 (EST)
-[debug] [2018-03-01T18:00:54.669Z] <<< HTTP RESPONSE 200
+ Fri Mar 02 2018 20:50:26 GMT-0500 (EST)
+[debug] [2018-03-03T01:50:26.508Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: app
 [info] ✔  hosting: Local server: http://localhost:5000
 
