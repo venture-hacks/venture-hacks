@@ -21,6 +21,12 @@ h1{
 p{
 	font-size: 16pt;
 }
+.paragraph-large{
+	height: 85px;
+}
+.paragraph-small{
+	height: 65px;
+}
 
 #menu {
 	position:fixed;
