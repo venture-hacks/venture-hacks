@@ -33,7 +33,7 @@
 
         #basically_the_answer {
             opacity: 1.0;
-            background-color: rgb(103,58,182);
+            background-color: rgb(76,175,80);
             width: 200px;
             height: 200px;
             margin-top: 30px;
@@ -160,13 +160,14 @@
                 $("input").focus();
                 $("footer").fadeIn(1500);
             });
+            //Hey. You. Whatcha up to.
             $("form").submit(function (event) {
                 event.preventDefault();
                 var huh = whatsThis($("input").val());
-                if (huh && huh.x == 103 && huh.y == 58 && huh.z == 182) {
+                if (huh && huh.x == 76 && huh.y == 175 && huh.z == 80) {
                     $("#puzzle").hide()
                     $("footer").hide()
-                    $("body").css("background-color", "rgb(103,58,182)");
+                    $("body").css("background-color", "rgb(76,175,80)");
                     $("#win").fadeIn()
                 }
                 else {
@@ -176,7 +177,7 @@
             })
         });
 
-        // Hey. You. Whacha up to.
+        //Nothing to see here.
         function whatsThis(yourGrandmasEmailPassword) {
             var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(yourGrandmasEmailPassword);
             return result ? {
