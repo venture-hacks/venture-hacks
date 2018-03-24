@@ -83,7 +83,7 @@ p{
 	opacity: .8;
 }
 
-.purple-link{
+.green-link{
 	color: #4caf50;
 	text-decoration: underline;
 }
@@ -192,7 +192,7 @@ a{
 }
 #purple-logo{
 	margin: auto;
-	float: none !important;
+	float: none;
 }
 @media (max-width: 853px) {
 	.third{
@@ -205,6 +205,9 @@ a{
 	font-size: 16pt;
 	max-width: 400px;
 }
+	#purple-logo{
+		float: left;
+	}
 }
 
 .third img{
